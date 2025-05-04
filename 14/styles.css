@@ -1,0 +1,252 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.SCAnimation canvas {
+	/*
+	-ms-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-ms-transform-origin: 0px 0px;
+	-moz-transform-origin: 0px 0px;
+	-webkit-transform-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	*/
+	pointer-events: none;
+}
+
+
+div#obj502 {
+position: absolute;
+overflow: hidden;
+top: 0px;
+left: 0px;
+width: 1366px;
+height: 1024px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj502_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1366px;
+	height: 1024px;
+}
+div#obj508 {
+position: absolute;
+overflow: hidden;
+top: 449px;
+left: 1379px;
+width: 332px;
+height: 514px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj508_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 332px;
+	height: 514px;
+}
+div#obj510 {
+position: absolute;
+overflow: hidden;
+top: 357px;
+left: -340px;
+width: 332px;
+height: 607px;
+opacity: 1;
+z-index: 2;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj510_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 332px;
+	height: 607px;
+}
+div#obj666 {
+position: absolute;
+overflow: hidden;
+top: 10px;
+left: -365px;
+width: 357px;
+height: 299px;
+opacity: 1;
+z-index: 3;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj666_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 357px;
+	height: 299px;
+	transform-origin: 50% 50%;
+	transform: rotate(0deg);
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: rotate(0deg);
+}
+div#obj680 {
+position: absolute;
+overflow: hidden;
+top: 101px;
+left: -542px;
+width: 357px;
+height: 299px;
+opacity: 1;
+z-index: 4;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj680_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 357px;
+	height: 299px;
+	transform-origin: 50% 50%;
+	transform: rotate(0deg);
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: rotate(0deg);
+}
+div#obj682 {
+position: absolute;
+overflow: hidden;
+top: 10px;
+left: -776px;
+width: 357px;
+height: 299px;
+opacity: 1;
+z-index: 5;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj682_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 357px;
+	height: 299px;
+	transform-origin: 50% 50%;
+	transform: rotate(0deg);
+	-webkit-transform-origin: 50% 50%;
+	-webkit-transform: rotate(0deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+font-family: Lato, Arial, Helvetica, Sans-Serif;
+font-size: 20px;
+line-height: 1.2;
+color: #000000
+}
+p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+:link { color: #0A52A2; }
+:visited { color: #5B2599; }
+/* Start of default CSS Styles */
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .67em; }
+/* End of default CSS Styles */
+.SCText p.Title { 
+    font-family: Sigmar-One-regular; 
+    font-weight: 600; 
+    font-size: 40px; 
+    line-height: 150%; 
+    color: #000000; 
+    text-align: center; 
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    padding: 10px; 
+} 
+ 
+.SCText p.Text { 
+    font-family: times; 
+    font-weight: 300; 
+    font-size: 28px; 
+    line-height: 150%; 
+    color: #000000; 
+    text-align: justify; 
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    padding: 10px; 
+} 
+.SCText p.Testo { 
+    font-family: OpenDyslexic3;  
+    font-weight: 300; 
+    font-size: 26px; 
+    line-height: 150%; 
+    color: #000000; 
+    text-align: justify; 
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    padding: 10px; 
+} 
+.SCPage {
+background-color: #FFFFFF
+}
