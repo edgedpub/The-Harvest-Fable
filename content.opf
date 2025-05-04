@@ -1,0 +1,586 @@
+<?xml version="1.0"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookID" version="3.0" prefix="rendition: http://www.idpf.org/vocab/rendition/# ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+<!-- METADATA -->
+	<meta name="generator" content="PubCoder for Mac OS X"/>
+	<meta property="rendition:layout">pre-paginated</meta>	
+	<meta property="rendition:orientation">auto</meta>
+	<meta property="rendition:spread">none</meta>
+	<meta property="dcterms:modified">2024-07-12T16:14:33Z</meta>
+	<meta property="media:active-class">-epub-media-overlay-active</meta>
+	<meta property="media:duration">00:00:00</meta>
+	
+	<dc:title>The Harvest Fable</dc:title>
+	<dc:creator>Daniele Giampà</dc:creator>
+	<dc:description>Powered by PubCoder</dc:description>
+	<dc:publisher>Daniele Giampà</dc:publisher>
+	<dc:date>2024-07-12</dc:date>
+	<dc:rights>© 2023 Daniele Giampà</dc:rights>
+	<dc:language>en</dc:language>
+	<dc:identifier id="BookID">2F3D23559A574BC6B006B65195797F50</dc:identifier>
+	<meta name="cover" content="cover-image" />
+</metadata>	
+<!-- MANIFEST -->
+	<manifest>
+<!-- GENERAL ASSETS  -->
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
+		<item id="cssContent" href="css/general.styles.css" media-type="text/css"/>
+		<item id="animateCss" href="css/animate.css" media-type="text/css"/>
+		<item id="jqueryUI" href="css/jquery-ui.min.css" media-type="text/css"/>
+		<item id="jqueryUI-structure" href="css/jquery-ui.structure.min.css" media-type="text/css"/>
+		<item id="jqueryUI-theme" href="css/jquery-ui.theme.min.css" media-type="text/css"/>
+		<item id="cover-image" properties="cover-image" href="assets/images/pubcoder_book_cover.jpg" media-type="image/jpeg"/>
+		
+		<item id="SCNavigationLeft-image" href="images/scnavigation-prev-btn.png" media-type="image/png"/>
+		<item id="SCNavigationLeft-image-active" href="images/scnavigation-prev-btn-active.png" media-type="image/png"/>
+		<item id="SCNavigationLeft-image-hover" href="images/scnavigation-prev-btn-hover.png" media-type="image/png"/>
+		<item id="SCNavigationRight-image" href="images/scnavigation-next-btn.png" media-type="image/png"/>
+		<item id="SCNavigationRight-image-active" href="images/scnavigation-next-btn-active.png" media-type="image/png"/>
+		<item id="SCNavigationRight-image-hover" href="images/scnavigation-next-btn-hover.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-fullscreen-close-image" href="images/scphotogallery-fullscreen-close.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-fullscreen-open-image" href="images/scphotogallery-fullscreen-open.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-index-close-image" href="images/scphotogallery-index-close.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-index-open-image" href="images/scphotogallery-index-open.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-next-image" href="images/scphotogallery-next.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-prev-image" href="images/scphotogallery-prev.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-thumb-next-image" href="images/scphotogallery-thumb-next.png" media-type="image/png"/>
+		<item id="SCPhotoGallery-thumb-prev-image" href="images/scphotogallery-thumb-prev.png" media-type="image/png"/>
+		
+		<item id="SCQuiz-check-off" href="images/scquiz-check-off.png" media-type="image/png"/>
+		<item id="SCQuiz-check-on" href="images/scquiz-check-on.png" media-type="image/png"/>
+		<item id="SCQuiz-check-right" href="images/scquiz-check-right.png" media-type="image/png"/>
+		<item id="SCQuiz-check-wrong" href="images/scquiz-check-wrong.png" media-type="image/png"/>
+		<item id="SCQuiz-radio-off" href="images/scquiz-radio-off.png" media-type="image/png"/>
+		<item id="SCQuiz-radio-on" href="images/scquiz-radio-on.png" media-type="image/png"/>
+		<item id="SCQuiz-radio-right" href="images/scquiz-radio-right.png" media-type="image/png"/>
+		<item id="SCQuiz-radio-wrong" href="images/scquiz-radio-wrong.png" media-type="image/png"/>
+		<item id="SCQuiz-next" href="images/scquiz-next.png" media-type="image/png"/>
+		<item id="SCQuiz-prev" href="images/scquiz-prev.png" media-type="image/png"/>
+		<item id="SCQuiz-radio-missed" href="images/scquiz-radio-missed.png" media-type="image/png"/>
+		<item id="SCQuiz-check-missed" href="images/scquiz-check-missed.png" media-type="image/png"/>
+		<item id="SCDrawer-trash" href="images/scdrawer-trash.png" media-type="image/png"/>
+        <item id="SCDrawer-transparent" href="images/scdrawer-transparent_color.png" media-type="image/png"/>
+        <item id="SCDrawer-tool-drawer" href="images/scdrawer-draw_tool_icon.png" media-type="image/png"/>
+        <item id="SCDrawer-tool-eraser" href="images/scdrawer-erase_tool_icon.png" media-type="image/png"/>
+        <item id="SCDrawer-tool-filler" href="images/scdrawer-fill_tool_icon.png" media-type="image/png"/>
+        <item id="SCDrawer-tool-crayon" href="images/scdrawer-crayon_tool_icon.png" media-type="image/png"/>
+		
+		<item id="scdrawer-brush_svg" href="images/scdrawer-brush.svg" media-type="image/svg+xml"/>
+		<item id="scdrawer-close_svg" href="images/scdrawer-close.svg" media-type="image/svg+xml"/>
+		<item id="scdrawer-eraser_svg" href="images/scdrawer-eraser.svg" media-type="image/svg+xml"/>
+		<item id="scdrawer-fill_svg" href="images/scdrawer-fill.svg" media-type="image/svg+xml"/>
+		<item id="scdrawer-highlighter_svg" href="images/scdrawer-highlighter.svg" media-type="image/svg+xml"/>
+		<item id="scdrawer-note_svg" href="images/scdrawer-note.svg" media-type="image/svg+xml"/>
+		<item id="scdrawer-pencil_svg" href="images/scdrawer-pencil.svg" media-type="image/svg+xml"/>
+		<item id="scdrawer-redo_svg" href="images/scdrawer-redo.svg" media-type="image/svg+xml"/>
+		<item id="scdrawer-trash_svg" href="images/scdrawer-trash.svg" media-type="image/svg+xml"/>
+		<item id="scdrawer-undo_svg" href="images/scdrawer-undo.svg" media-type="image/svg+xml"/>
+		<item id="sctruefalse-down" href="images/sctruefalse-down.png" media-type="image/png"/>
+		<item id="sctruefalse-radio-missed" href="images/sctruefalse-radio-missed.png" media-type="image/png"/>
+		<item id="sctruefalse-radio-off" href="images/sctruefalse-radio-off.png" media-type="image/png"/>
+		<item id="sctruefalse-radio-on" href="images/sctruefalse-radio-on.png" media-type="image/png"/>
+		<item id="sctruefalse-radio-right" href="images/sctruefalse-radio-right.png" media-type="image/png"/>
+		<item id="sctruefalse-radio-wrong" href="images/sctruefalse-radio-wrong.png" media-type="image/png"/>
+		<item id="sctruefalse-up" href="images/sctruefalse-up.png" media-type="image/png"/>
+		<item id="ui-icons_444444_256x240" href="images/ui-icons_444444_256x240.png" media-type="image/png"/>
+		<item id="ui-icons_555555_256x240" href="images/ui-icons_555555_256x240.png" media-type="image/png"/>
+		<item id="ui-icons_777620_256x240" href="images/ui-icons_777620_256x240.png" media-type="image/png"/>
+		<item id="ui-icons_777777_256x240" href="images/ui-icons_777777_256x240.png" media-type="image/png"/>
+		<item id="ui-icons_cc0000_256x240" href="images/ui-icons_cc0000_256x240.png" media-type="image/png"/>
+		<item id="ui-icons_ffffff_256x240" href="images/ui-icons_ffffff_256x240.png" media-type="image/png"/>
+<!-- FONTS -->		
+		
+<item id="font1" href="fonts/Sigmar-One-regular.ttf" media-type="application/x-font-truetype"/>
+<item id="font2" href="fonts/OpenDyslexic3.ttf" media-type="application/x-font-truetype"/>
+<item id="font3" href="fonts/Anonymous-Pro.ttf" media-type="application/x-font-truetype"/>
+<item id="font4" href="fonts/SigmarOne-Regular.ttf" media-type="application/x-font-truetype"/>
+<item id="font5" href="fonts/Droid-Sans.ttf" media-type="application/x-font-truetype"/>
+<item id="font6" href="fonts/Tinos.ttf" media-type="application/x-font-truetype"/>
+<item id="font7" href="fonts/Didot.ttf" media-type="application/x-font-truetype"/>
+<item id="font8" href="fonts/Roboto-Mono.ttf" media-type="application/x-font-truetype"/>
+<item id="font9" href="fonts/Roboto-Slab.ttf" media-type="application/x-font-truetype"/>
+<item id="font10" href="fonts/Open-Sans.ttf" media-type="application/x-font-truetype"/>
+<item id="font11" href="fonts/Roboto.ttf" media-type="application/x-font-truetype"/>
+<item id="font12" href="fonts/Source-Sans-Pro.ttf" media-type="application/x-font-truetype"/>
+<item id="font13" href="fonts/Source-Code-Pro.ttf" media-type="application/x-font-truetype"/>
+<item id="font14" href="fonts/Droid-Serif.ttf" media-type="application/x-font-truetype"/>
+<item id="font15" href="fonts/Droid-Sans-Mono.ttf" media-type="application/x-font-truetype"/>
+<item id="font16" href="fonts/Lato.ttf" media-type="application/x-font-truetype"/>
+<!-- JAVASCRIPT -->
+				<item id="jquery" href="js/jquery.js" media-type="text/javascript" />
+		<item id="jquery_ui" href="js/jquery-ui.min.js" media-type="text/javascript" />
+        <item id="spritespin_api" href="js/spritespin.api.js" media-type="text/javascript" />
+        <item id="spritespin" href="js/spritespin.js" media-type="text/javascript" />
+		<item id="spritespin_mod_360" href="js/spritespin.mod-360.js" media-type="text/javascript" />
+		<item id="jquery_scrollTo" href="js/jquery.scrollTo.min.js" media-type="text/javascript" />
+		<item id="jquery_easie" href="js/jquery.easie-min.js" media-type="text/javascript" />
+		<item id="jquery_move" href='js/jquery.move.js' media-type="text/javascript" />
+		<item id="jquery_SCswipe" href='js/jquery.SCswipe.js' media-type="text/javascript" />
+		<item id="jquery-css-transform" href='js/jquery-css-transform.js' media-type="text/javascript" />
+		<item id="jquery-animate-css-rotate-scale" href='js/jquery-animate-css-rotate-scale.js' media-type="text/javascript" />
+		<item id="jquery-animate-shadow" href='js/jquery.animate-shadow-min.js' media-type="text/javascript" />
+		<item id="jquery-animate-dropshadow" href='js/jquery.animate-dropshadow.js' media-type="text/javascript" />
+        <item id="jquery_panzoom_js" href='js/jquery.panzoom.min.js' media-type="text/javascript" />
+        <item id="underscore_js" href='js/underscore-min.js' media-type="text/javascript" />
+		<item id="remodal_js" href='js/remodal.js' media-type="text/javascript" />
+		<item id="pubcoder_js" href='js/pubcoder.js' media-type="text/javascript" />
+		<item id="pubcoder_devicemotion_js" href='js/pubcoder.devicemotion.js' media-type="text/javascript" />
+		<item id="pubcoder_general_functions" href='js/general.functions.js' media-type="text/javascript" />
+		<item id="unmask_js" href='js/unmask.js' media-type="text/javascript" />
+		<item id="swiper_js" href='js/idangerous.swiper-2.3.js' media-type="text/javascript" />
+		<item id="photogallery_js" href='js/photogallery.js' media-type="text/javascript" />
+		<item id="quiz_multi_js" href='js/quiz-multi.js' media-type="text/javascript" />
+		<item id="drawer_js" href='js/drawer.js' media-type="text/javascript" />
+		<item id="drawer_flood_fill_js" href='js/flood_fill.js' media-type="text/javascript" />
+        <item id="scw_widgets_js" href='js/scw_widgets.js' media-type="text/javascript" />
+        <item id="scw_panzoom_js" href='js/scw_panzoom.js' media-type="text/javascript" />
+        <item id="scw_memory_game_js" href='js/scw_memory_game.js' media-type="text/javascript" />
+		<item id="hammer_min_js" href='js/hammer.min.js' media-type="text/javascript" />
+		<item id="crossword_js" href="js/crossword.js" media-type="text/javascript" />
+		<item id="fill_in_js" href="js/fill-in.js" media-type="text/javascript" />
+		<item id="jquery_ui_touch-punch_js" href="js/jquery.ui.touch-punch.js" media-type="text/javascript" />
+		<item id="matchWordWithPicture_js" href="js/matchWordWithPicture.js" media-type="text/javascript" />
+		<item id="trueFalse_js" href="js/trueFalse.js" media-type="text/javascript" />
+		
+<!-- SHARED ASSETS -->
+		
+<!-- PAGES ASSETS -->
+		<!--page 1-->
+<item id="js1" href="assets/1/actions.js" media-type="text/javascript" />
+<item id="css1" href="assets/1/styles.css" media-type="text/css"/>
+<item id="page1" href="assets/1/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj339_image" href="assets/images/obj339_image.png" media-type="image/png" />
+<item id="obj343_image" href="assets/images/obj343_image.png" media-type="image/png" />
+
+<!--page 1: end-->
+<!--page 2-->
+<item id="js2" href="assets/2/actions.js" media-type="text/javascript" />
+<item id="css2" href="assets/2/styles.css" media-type="text/css"/>
+<item id="page2" href="assets/2/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj802_image" href="assets/images/obj802_image.png" media-type="image/png" />
+
+<!--page 2: end-->
+<!--page 3-->
+<item id="js3" href="assets/3/actions.js" media-type="text/javascript" />
+<item id="css3" href="assets/3/styles.css" media-type="text/css"/>
+<item id="page3" href="assets/3/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+
+<!--page 3: end-->
+<!--page 4-->
+<item id="js4" href="assets/4/actions.js" media-type="text/javascript" />
+<item id="css4" href="assets/4/styles.css" media-type="text/css"/>
+<item id="page4" href="assets/4/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj813_image" href="assets/images/obj813_image.png" media-type="image/png" />
+
+<!--page 4: end-->
+<!--page 5-->
+<item id="js5" href="assets/5/actions.js" media-type="text/javascript" />
+<item id="css5" href="assets/5/styles.css" media-type="text/css"/>
+<item id="page5" href="assets/5/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj474_image" href="assets/images/obj474_image.png" media-type="image/png" />
+
+<!--page 5: end-->
+<!--page 6-->
+<item id="js6" href="assets/6/actions.js" media-type="text/javascript" />
+<item id="css6" href="assets/6/styles.css" media-type="text/css"/>
+<item id="page6" href="assets/6/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj484_image" href="assets/images/obj484_image.png" media-type="image/png" />
+<item id="obj489_image" href="assets/images/obj489_image.png" media-type="image/png" />
+<item id="obj492_image" href="assets/images/obj492_image.png" media-type="image/png" />
+<item id="obj495_image" href="assets/images/obj495_image.png" media-type="image/png" />
+
+<!--page 6: end-->
+<!--page 7-->
+<item id="js7" href="assets/7/actions.js" media-type="text/javascript" />
+<item id="css7" href="assets/7/styles.css" media-type="text/css"/>
+<item id="page7" href="assets/7/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj805_image" href="assets/images/obj805_image.png" media-type="image/png" />
+
+<!--page 7: end-->
+<!--page 8-->
+<item id="js8" href="assets/8/actions.js" media-type="text/javascript" />
+<item id="css8" href="assets/8/styles.css" media-type="text/css"/>
+<item id="page8" href="assets/8/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj40_image" href="assets/images/obj40_image.png" media-type="image/png" />
+<item id="obj42_image" href="assets/images/obj42_image.png" media-type="image/png" />
+<item id="obj44_image" href="assets/images/obj44_image.png" media-type="image/png" />
+<item id="obj312_sprite1" href="assets/images/obj312_sprite1.png" media-type="image/png" />
+<item id="obj312_sprite2" href="assets/images/obj312_sprite2.png" media-type="image/png" />
+
+<!--page 8: end-->
+<!--page 9-->
+<item id="js9" href="assets/9/actions.js" media-type="text/javascript" />
+<item id="css9" href="assets/9/styles.css" media-type="text/css"/>
+<item id="page9" href="assets/9/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj852_image" href="assets/images/obj852_image.png" media-type="image/png" />
+
+<!--page 9: end-->
+<!--page 10-->
+<item id="js10" href="assets/10/actions.js" media-type="text/javascript" />
+<item id="css10" href="assets/10/styles.css" media-type="text/css"/>
+<item id="page10" href="assets/10/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj120_image" href="assets/images/obj120_image.png" media-type="image/png" />
+<item id="obj123_image" href="assets/images/obj123_image.png" media-type="image/png" />
+<item id="obj126_image" href="assets/images/obj126_image.png" media-type="image/png" />
+<item id="obj129_image" href="assets/images/obj129_image.png" media-type="image/png" />
+<item id="obj255_image" href="assets/images/obj255_image.png" media-type="image/png" />
+<item id="obj257_image" href="assets/images/obj257_image.png" media-type="image/png" />
+
+<!--page 10: end-->
+<!--page 11-->
+<item id="js11" href="assets/11/actions.js" media-type="text/javascript" />
+<item id="css11" href="assets/11/styles.css" media-type="text/css"/>
+<item id="page11" href="assets/11/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj818_image" href="assets/images/obj818_image.png" media-type="image/png" />
+
+<!--page 11: end-->
+<!--page 12-->
+<item id="js12" href="assets/12/actions.js" media-type="text/javascript" />
+<item id="css12" href="assets/12/styles.css" media-type="text/css"/>
+<item id="page12" href="assets/12/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj142_image" href="assets/images/obj142_image.png" media-type="image/png" />
+<item id="obj145_image" href="assets/images/obj145_image.png" media-type="image/png" />
+<item id="obj148_image" href="assets/images/obj148_image.png" media-type="image/png" />
+
+<!--page 12: end-->
+<!--page 13-->
+<item id="js13" href="assets/13/actions.js" media-type="text/javascript" />
+<item id="css13" href="assets/13/styles.css" media-type="text/css"/>
+<item id="page13" href="assets/13/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj821_image" href="assets/images/obj821_image.png" media-type="image/png" />
+
+<!--page 13: end-->
+<!--page 14-->
+<item id="js14" href="assets/14/actions.js" media-type="text/javascript" />
+<item id="css14" href="assets/14/styles.css" media-type="text/css"/>
+<item id="page14" href="assets/14/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj502_image" href="assets/images/obj502_image.png" media-type="image/png" />
+<item id="obj508_image" href="assets/images/obj508_image.png" media-type="image/png" />
+<item id="obj510_image" href="assets/images/obj510_image.png" media-type="image/png" />
+<item id="image19" href="assets/images/15_bird-gif-3_THF.gif" media-type="image/gif" />
+<item id="image20" href="assets/images/15_bird-gif-4_THF.gif" media-type="image/gif" />
+
+<!--page 14: end-->
+<!--page 15-->
+<item id="js15" href="assets/15/actions.js" media-type="text/javascript" />
+<item id="css15" href="assets/15/styles.css" media-type="text/css"/>
+<item id="page15" href="assets/15/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj826_image" href="assets/images/obj826_image.png" media-type="image/png" />
+
+<!--page 15: end-->
+<!--page 16-->
+<item id="js16" href="assets/16/actions.js" media-type="text/javascript" />
+<item id="css16" href="assets/16/styles.css" media-type="text/css"/>
+<item id="page16" href="assets/16/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj860_image" href="assets/images/obj860_image.png" media-type="image/png" />
+<item id="obj862_sprite1" href="assets/images/obj862_sprite1.png" media-type="image/png" />
+<item id="obj862_sprite2" href="assets/images/obj862_sprite2.png" media-type="image/png" />
+<item id="obj862_sprite3" href="assets/images/obj862_sprite3.png" media-type="image/png" />
+<item id="obj862_sprite4" href="assets/images/obj862_sprite4.png" media-type="image/png" />
+<item id="obj862_sprite5" href="assets/images/obj862_sprite5.png" media-type="image/png" />
+
+<!--page 16: end-->
+<!--page 17-->
+<item id="js17" href="assets/17/actions.js" media-type="text/javascript" />
+<item id="css17" href="assets/17/styles.css" media-type="text/css"/>
+<item id="page17" href="assets/17/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj831_image" href="assets/images/obj831_image.png" media-type="image/png" />
+
+<!--page 17: end-->
+<!--page 18-->
+<item id="js18" href="assets/18/actions.js" media-type="text/javascript" />
+<item id="css18" href="assets/18/styles.css" media-type="text/css"/>
+<item id="page18" href="assets/18/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj871_image" href="assets/images/obj871_image.png" media-type="image/png" />
+<item id="obj873_sprite1" href="assets/images/obj873_sprite1.png" media-type="image/png" />
+<item id="obj873_sprite2" href="assets/images/obj873_sprite2.png" media-type="image/png" />
+<item id="obj873_sprite3" href="assets/images/obj873_sprite3.png" media-type="image/png" />
+<item id="obj873_sprite4" href="assets/images/obj873_sprite4.png" media-type="image/png" />
+<item id="obj873_sprite5" href="assets/images/obj873_sprite5.png" media-type="image/png" />
+
+<!--page 18: end-->
+<!--page 19-->
+<item id="js19" href="assets/19/actions.js" media-type="text/javascript" />
+<item id="css19" href="assets/19/styles.css" media-type="text/css"/>
+<item id="page19" href="assets/19/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj836_image" href="assets/images/obj836_image.png" media-type="image/png" />
+
+<!--page 19: end-->
+<!--page 20-->
+<item id="js20" href="assets/20/actions.js" media-type="text/javascript" />
+<item id="css20" href="assets/20/styles.css" media-type="text/css"/>
+<item id="page20" href="assets/20/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj882_image" href="assets/images/obj882_image.png" media-type="image/png" />
+<item id="obj884_sprite1" href="assets/images/obj884_sprite1.png" media-type="image/png" />
+<item id="obj884_sprite2" href="assets/images/obj884_sprite2.png" media-type="image/png" />
+<item id="obj884_sprite3" href="assets/images/obj884_sprite3.png" media-type="image/png" />
+<item id="obj884_sprite4" href="assets/images/obj884_sprite4.png" media-type="image/png" />
+<item id="obj884_sprite5" href="assets/images/obj884_sprite5.png" media-type="image/png" />
+
+<!--page 20: end-->
+<!--page 21-->
+<item id="js21" href="assets/21/actions.js" media-type="text/javascript" />
+<item id="css21" href="assets/21/styles.css" media-type="text/css"/>
+<item id="page21" href="assets/21/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj855_image" href="assets/images/obj855_image.png" media-type="image/png" />
+
+<!--page 21: end-->
+<!--page 22-->
+<item id="js22" href="assets/22/actions.js" media-type="text/javascript" />
+<item id="css22" href="assets/22/styles.css" media-type="text/css"/>
+<item id="page22" href="assets/22/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj479_image" href="assets/images/obj479_image.png" media-type="image/png" />
+
+<!--page 22: end-->
+<!--page 23-->
+<item id="js23" href="assets/23/actions.js" media-type="text/javascript" />
+<item id="css23" href="assets/23/styles.css" media-type="text/css"/>
+<item id="page23" href="assets/23/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj272_image" href="assets/images/obj272_image.png" media-type="image/png" />
+<item id="obj274_image" href="assets/images/obj274_image.png" media-type="image/png" />
+<item id="obj276_image" href="assets/images/obj276_image.png" media-type="image/png" />
+
+<!--page 23: end-->
+<!--page 24-->
+<item id="js24" href="assets/24/actions.js" media-type="text/javascript" />
+<item id="css24" href="assets/24/styles.css" media-type="text/css"/>
+<item id="page24" href="assets/24/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj267_image" href="assets/images/obj267_image.png" media-type="image/png" />
+
+<!--page 24: end-->
+<!--page 25-->
+<item id="js25" href="assets/25/actions.js" media-type="text/javascript" />
+<item id="css25" href="assets/25/styles.css" media-type="text/css"/>
+<item id="page25" href="assets/25/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+
+<!--page 25: end-->
+<!--page 26-->
+<item id="js26" href="assets/26/actions.js" media-type="text/javascript" />
+<item id="css26" href="assets/26/styles.css" media-type="text/css"/>
+<item id="page26" href="assets/26/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+
+<!--page 26: end-->
+<!--page 27-->
+<item id="js27" href="assets/27/actions.js" media-type="text/javascript" />
+<item id="css27" href="assets/27/styles.css" media-type="text/css"/>
+<item id="page27" href="assets/27/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj815_image" href="assets/images/obj815_image.png" media-type="image/png" />
+
+<!--page 27: end-->
+<!--page 28-->
+<item id="js28" href="assets/28/actions.js" media-type="text/javascript" />
+<item id="css28" href="assets/28/styles.css" media-type="text/css"/>
+<item id="page28" href="assets/28/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj476_image" href="assets/images/obj476_image.png" media-type="image/png" />
+
+<!--page 28: end-->
+<!--page 29-->
+<item id="js29" href="assets/29/actions.js" media-type="text/javascript" />
+<item id="css29" href="assets/29/styles.css" media-type="text/css"/>
+<item id="page29" href="assets/29/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+
+<!--page 29: end-->
+<!--page 30-->
+<item id="js30" href="assets/30/actions.js" media-type="text/javascript" />
+<item id="css30" href="assets/30/styles.css" media-type="text/css"/>
+<item id="page30" href="assets/30/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj807_image" href="assets/images/obj807_image.png" media-type="image/png" />
+
+<!--page 30: end-->
+<!--page 31-->
+<item id="js31" href="assets/31/actions.js" media-type="text/javascript" />
+<item id="css31" href="assets/31/styles.css" media-type="text/css"/>
+<item id="page31" href="assets/31/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj590_image" href="assets/images/obj590_image.png" media-type="image/png" />
+
+<!--page 31: end-->
+<!--page 32-->
+<item id="js32" href="assets/32/actions.js" media-type="text/javascript" />
+<item id="css32" href="assets/32/styles.css" media-type="text/css"/>
+<item id="page32" href="assets/32/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj702_image" href="assets/images/obj702_image.png" media-type="image/png" />
+<item id="obj708_sprite1" href="assets/images/obj708_sprite1.png" media-type="image/png" />
+<item id="obj708_sprite2" href="assets/images/obj708_sprite2.png" media-type="image/png" />
+
+<!--page 32: end-->
+<!--page 33-->
+<item id="js33" href="assets/33/actions.js" media-type="text/javascript" />
+<item id="css33" href="assets/33/styles.css" media-type="text/css"/>
+<item id="page33" href="assets/33/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj466_image" href="assets/images/obj466_image.png" media-type="image/png" />
+
+<!--page 33: end-->
+<!--page 34-->
+<item id="js34" href="assets/34/actions.js" media-type="text/javascript" />
+<item id="css34" href="assets/34/styles.css" media-type="text/css"/>
+<item id="page34" href="assets/34/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj571_sprite1" href="assets/images/obj571_sprite1.png" media-type="image/png" />
+<item id="obj571_sprite2" href="assets/images/obj571_sprite2.png" media-type="image/png" />
+<item id="obj569_image" href="assets/images/obj569_image.png" media-type="image/png" />
+
+<!--page 34: end-->
+<!--page 35-->
+<item id="js35" href="assets/35/actions.js" media-type="text/javascript" />
+<item id="css35" href="assets/35/styles.css" media-type="text/css"/>
+<item id="page35" href="assets/35/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj463_image" href="assets/images/obj463_image.png" media-type="image/png" />
+
+<!--page 35: end-->
+<!--page 36-->
+<item id="js36" href="assets/36/actions.js" media-type="text/javascript" />
+<item id="css36" href="assets/36/styles.css" media-type="text/css"/>
+<item id="page36" href="assets/36/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj592_image" href="assets/images/obj592_image.png" media-type="image/png" />
+
+<!--page 36: end-->
+<!--page 37-->
+<item id="js37" href="assets/37/actions.js" media-type="text/javascript" />
+<item id="css37" href="assets/37/styles.css" media-type="text/css"/>
+<item id="page37" href="assets/37/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj849_image" href="assets/images/obj849_image.png" media-type="image/png" />
+<item id="obj729_sprite1" href="assets/images/obj729_sprite1.png" media-type="image/png" />
+<item id="obj729_sprite2" href="assets/images/obj729_sprite2.png" media-type="image/png" />
+
+<!--page 37: end-->
+<!--page 38-->
+<item id="js38" href="assets/38/actions.js" media-type="text/javascript" />
+<item id="css38" href="assets/38/styles.css" media-type="text/css"/>
+<item id="page38" href="assets/38/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj823_image" href="assets/images/obj823_image.png" media-type="image/png" />
+
+<!--page 38: end-->
+<!--page 39-->
+<item id="js39" href="assets/39/actions.js" media-type="text/javascript" />
+<item id="css39" href="assets/39/styles.css" media-type="text/css"/>
+<item id="page39" href="assets/39/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj654_sprite1" href="assets/images/obj654_sprite1.png" media-type="image/png" />
+<item id="obj654_sprite2" href="assets/images/obj654_sprite2.png" media-type="image/png" />
+
+<!--page 39: end-->
+<!--page 40-->
+<item id="js40" href="assets/40/actions.js" media-type="text/javascript" />
+<item id="css40" href="assets/40/styles.css" media-type="text/css"/>
+<item id="page40" href="assets/40/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj828_image" href="assets/images/obj828_image.png" media-type="image/png" />
+
+<!--page 40: end-->
+<!--page 41-->
+<item id="js41" href="assets/41/actions.js" media-type="text/javascript" />
+<item id="css41" href="assets/41/styles.css" media-type="text/css"/>
+<item id="page41" href="assets/41/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+
+<!--page 41: end-->
+<!--page 42-->
+<item id="js42" href="assets/42/actions.js" media-type="text/javascript" />
+<item id="css42" href="assets/42/styles.css" media-type="text/css"/>
+<item id="page42" href="assets/42/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj833_image" href="assets/images/obj833_image.png" media-type="image/png" />
+
+<!--page 42: end-->
+<!--page 43-->
+<item id="js43" href="assets/43/actions.js" media-type="text/javascript" />
+<item id="css43" href="assets/43/styles.css" media-type="text/css"/>
+<item id="page43" href="assets/43/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+
+<!--page 43: end-->
+<!--page 44-->
+<item id="js44" href="assets/44/actions.js" media-type="text/javascript" />
+<item id="css44" href="assets/44/styles.css" media-type="text/css"/>
+<item id="page44" href="assets/44/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj838_image" href="assets/images/obj838_image.png" media-type="image/png" />
+
+<!--page 44: end-->
+<!--page 45-->
+<item id="js45" href="assets/45/actions.js" media-type="text/javascript" />
+<item id="css45" href="assets/45/styles.css" media-type="text/css"/>
+<item id="page45" href="assets/45/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj857_image" href="assets/images/obj857_image.png" media-type="image/png" />
+
+<!--page 45: end-->
+<!--page 46-->
+<item id="js46" href="assets/46/actions.js" media-type="text/javascript" />
+<item id="css46" href="assets/46/styles.css" media-type="text/css"/>
+<item id="page46" href="assets/46/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+
+<!--page 46: end-->
+<!--page 47-->
+<item id="js47" href="assets/47/actions.js" media-type="text/javascript" />
+<item id="css47" href="assets/47/styles.css" media-type="text/css"/>
+<item id="page47" href="assets/47/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj481_image" href="assets/images/obj481_image.png" media-type="image/png" />
+
+<!--page 47: end-->
+<!--page 48-->
+<item id="js48" href="assets/48/actions.js" media-type="text/javascript" />
+<item id="css48" href="assets/48/styles.css" media-type="text/css"/>
+<item id="page48" href="assets/48/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+<item id="obj631_image" href="assets/images/obj631_image.png" media-type="image/png" />
+<item id="obj787_sprite1" href="assets/images/obj787_sprite1.png" media-type="image/png" />
+<item id="obj787_sprite2" href="assets/images/obj787_sprite2.png" media-type="image/png" />
+
+<!--page 48: end-->
+<!--page 49-->
+<item id="js49" href="assets/49/actions.js" media-type="text/javascript" />
+<item id="css49" href="assets/49/styles.css" media-type="text/css"/>
+<item id="page49" href="assets/49/page.xhtml" media-type="application/xhtml+xml" properties="scripted"/>
+
+<!--page 49: end-->
+	</manifest>
+	
+	<spine page-progression-direction="ltr">
+		<itemref idref="page1" />
+<itemref idref="page2" />
+<itemref idref="page3" />
+<itemref idref="page4" />
+<itemref idref="page5" />
+<itemref idref="page6" />
+<itemref idref="page7" />
+<itemref idref="page8" />
+<itemref idref="page9" />
+<itemref idref="page10" />
+<itemref idref="page11" />
+<itemref idref="page12" />
+<itemref idref="page13" />
+<itemref idref="page14" />
+<itemref idref="page15" />
+<itemref idref="page16" />
+<itemref idref="page17" />
+<itemref idref="page18" />
+<itemref idref="page19" />
+<itemref idref="page20" />
+<itemref idref="page21" />
+<itemref idref="page22" />
+<itemref idref="page23" />
+<itemref idref="page24" />
+<itemref idref="page25" />
+<itemref idref="page26" />
+<itemref idref="page27" />
+<itemref idref="page28" />
+<itemref idref="page29" />
+<itemref idref="page30" />
+<itemref idref="page31" />
+<itemref idref="page32" />
+<itemref idref="page33" />
+<itemref idref="page34" />
+<itemref idref="page35" />
+<itemref idref="page36" />
+<itemref idref="page37" />
+<itemref idref="page38" />
+<itemref idref="page39" />
+<itemref idref="page40" />
+<itemref idref="page41" />
+<itemref idref="page42" />
+<itemref idref="page43" />
+<itemref idref="page44" />
+<itemref idref="page45" />
+<itemref idref="page46" />
+<itemref idref="page47" />
+<itemref idref="page48" />
+<itemref idref="page49" />
+	</spine>
+	
+	<guide> 
+      <reference type="cover" title="Cover" href="assets/1/page.xhtml"/>
+      <reference type="text" title="Story start" href="assets/2/page.xhtml"/>
+  </guide>	
+</package>
