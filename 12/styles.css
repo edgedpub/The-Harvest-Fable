@@ -1,0 +1,168 @@
+div.SCContent {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.SCAnimation canvas {
+	/*
+	-ms-transform: scale(0.5);
+	-moz-transform: scale(0.5);
+	-webkit-transform: scale(0.5);
+	transform: scale(0.5);
+	-ms-transform-origin: 0px 0px;
+	-moz-transform-origin: 0px 0px;
+	-webkit-transform-origin: 0px 0px;
+	transform-origin: 0px 0px;
+	*/
+	pointer-events: none;
+}
+
+
+div#obj142 {
+position: absolute;
+overflow: hidden;
+top: 0px;
+left: 0px;
+width: 1366px;
+height: 1024px;
+opacity: 1;
+z-index: 0;
+display:block;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj142_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 1366px;
+	height: 1024px;
+}
+div#obj145 {
+position: absolute;
+overflow: hidden;
+top: 361px;
+left: 334px;
+width: 363px;
+height: 514px;
+opacity: 1;
+z-index: 1;
+display:block;
+pointer-events: none;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj145_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 363px;
+	height: 514px;
+}
+div#obj148 {
+position: absolute;
+overflow: hidden;
+top: 371px;
+left: 342px;
+width: 451px;
+height: 441px;
+opacity: 1;
+z-index: 2;
+display:none;
+pointer-events: auto;
+
+user-select: none;  
+-moz-user-select: none;
+-webkit-user-select: none;
+-ms-user-select: none;
+}
+img#obj148_img {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 451px;
+	height: 441px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+font-family: Lato, Arial, Helvetica, Sans-Serif;
+font-size: 20px;
+line-height: 1.2;
+color: #000000
+}
+p, h1, h2, h3, h4, h5, h6 { margin: 0px; padding: 0px; }
+:link { color: #0A52A2; }
+:visited { color: #5B2599; }
+/* Start of default CSS Styles */
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0px;
+    padding: 0px;
+}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
+h3 { font-size: 1.17em; }
+h4 { font-size: 1.12em; }
+h5 { font-size: .83em; }
+h6 { font-size: .67em; }
+/* End of default CSS Styles */
+.SCText p.Title { 
+    font-family: Sigmar-One-regular; 
+    font-weight: 600; 
+    font-size: 40px; 
+    line-height: 150%; 
+    color: #000000; 
+    text-align: center; 
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    padding: 10px; 
+} 
+ 
+.SCText p.Text { 
+    font-family: times; 
+    font-weight: 300; 
+    font-size: 28px; 
+    line-height: 150%; 
+    color: #000000; 
+    text-align: justify; 
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    padding: 10px; 
+} 
+.SCText p.Testo { 
+    font-family: OpenDyslexic3;  
+    font-weight: 300; 
+    font-size: 26px; 
+    line-height: 150%; 
+    color: #000000; 
+    text-align: justify; 
+    margin-bottom: 10px; 
+    margin-top: 10px; 
+    padding: 10px; 
+} 
+.SCPage {
+background-color: #FFFFFF
+}
